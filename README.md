@@ -1,0 +1,2 @@
+# entrejourn.in
+Website for EntreJourn, an NGO. Entrejourn presents entrepreneurial journeys of mental resilience, we strive towards creating a stronger community by sharing lived experiences and narratives from a thriving community of Entrepreneurs by themselves. We believe staying mentally strong is a quintessential requirement for everyone and especially a must for an entrepreneur; and also understand that having a strong mindset is both a skill and attitude, hence can be nurtured, practiced and developed. 
