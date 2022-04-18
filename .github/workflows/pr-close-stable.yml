@@ -1,0 +1,26 @@
+name: PR Close (Stable)
+on:
+  pull_request:
+    branches: [stable]
+    types: [closed]
+
+jobs:
+  close:
+    name: Deactivate Preview Environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deactivate deployment
+        uses: bobheadxi/deployments@v0.6.0
+        with:
+          step: deactivate-env
+          token: ${{ secrets.GITHUB_TOKEN }}
+          logs: 'https://console.firebase.google.com/u/0/project/entrejourn-in/hosting/sites/entrejourn-in'
+          env: 'Preview (${{ github.head_ref }})'
+          desc: Deployment was pruned
+
+      - name: Delete environment
+        continue-on-error: true
+        uses: strumwolf/delete-deployment-environment@v2.0.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: 'Preview (${{ github.head_ref }})'
