@@ -2,3 +2,29 @@
  * Global application theme.
  * Framework overrides and customization goes here.
  */
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Revue, sans-serif;
+}
+
+.btn-link {
+  font-family: Revue, sans-serif;
+  text-decoration: none;
+}
+
+// Miscellaneous
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-dark-pink {
+  background-color: $rich-pink;
+}

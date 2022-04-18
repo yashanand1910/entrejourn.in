@@ -1,9 +1,124 @@
-.logo {
-  width: 100px;
+@import "src/theme/theme-variables";
+
+.hero {
+  padding-top: $spacer * 5;
+  padding-bottom: $spacer * 5;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
-q {
-  font-style: italic;
-  font-size: 1.2rem;
-  quotes: "« " " »";
+.popup-bg {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+
+  iframe {
+    height: 800px;
+    width: 1200px;
+  }
+}
+
+.video-box {
+  cursor: pointer;
+  margin-top: $spacer * 2;
+
+  img {
+    width: 100%;
+  }
+}
+
+.section-2 {
+  padding-bottom: $spacer * 5;
+  padding-top: $spacer * 5;
+}
+
+.section-3 {
+  padding-bottom: $spacer * 5;
+  padding-top: $spacer * 5;
+  background: linear-gradient($light-pink, $white);
+}
+
+.mission-icon-box {
+  color: $white;
+  border-radius: 10px;
+  background-color: $rich-pink;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: $spacer;
+}
+
+.section-4 {
+  padding-bottom: $spacer * 5;
+  padding-top: $spacer * 5;
+}
+
+.video-big-box {
+  display: flex;
+  height: 600px;
+  margin-right: $spacer;
+  background-color: $gray-200;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: $gray-500;
+  font-size: 40px;
+}
+
+.video-small-box {
+  display: flex;
+  height: 188px;
+  margin-bottom: $spacer;
+  background-color: $gray-200;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: $gray-500;
+  font-size: 30px;
+}
+
+.section-5 {
+  overflow: hidden;
+}
+
+.support-content-box {
+  padding-top: $spacer * 5;
+  background-color: $rich-pink;
+  z-index: 99999;
+  border-radius: 100px;
+}
+
+.support-image-box {
+  margin-top: -$spacer * 5;
+  transform: scale(1.4);
+  background-image: url("/src/assets/people-hands-achievement-group 1.png");
+  background-size: cover;
+  height: 520px;
+}
+
+.section-6 {
+  padding-bottom: $spacer * 10;
+  padding-top: $spacer * 5;
+  background: linear-gradient($light-pink, $white);
+}
+
+.blog-post {
+  background-color: $white;
+  border-radius: 20px;
+  height: 400px;
+  padding: $spacer;
+}
+
+.post-image {
+  height: 200px;
+  border-radius: 15px;
+  background-color: $gray-200;
 }
