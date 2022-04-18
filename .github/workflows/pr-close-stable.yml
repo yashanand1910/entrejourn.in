@@ -14,7 +14,7 @@ jobs:
         with:
           step: deactivate-env
           token: ${{ secrets.GITHUB_TOKEN }}
-          logs: 'https://console.firebase.google.com/u/0/project/entrejourn-in/hosting/sites/entrejourn-in'
+          logs: 'https://console.firebase.google.com/u/0/project/entrejourn-32fdf/hosting/sites'
           env: 'Preview (${{ github.head_ref }})'
           desc: Deployment was pruned
 

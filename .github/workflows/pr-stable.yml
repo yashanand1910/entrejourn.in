@@ -12,7 +12,7 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     env:
-      FIREBASE_HOSTING_LOGS_URL: 'https://console.firebase.google.com/u/0/project/entrejourn-in/hosting/sites/entrejourn-in'
+      FIREBASE_HOSTING_LOGS_URL: 'https://console.firebase.google.com/u/0/project/entrejourn-32fdf/hosting/sites'
     steps:
       - uses: actions/checkout@v2
         name: Checkout
