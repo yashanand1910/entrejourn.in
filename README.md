@@ -1,7 +1,8 @@
-# entrejourn
+![alt text](https://github.com/yashanand1910/entrejourn.in/blob/stable/src/assets/logo-with-white-text.png?raw=true)
 
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
-version 10.1.2
+# EntreJourn
+
+Website for EntreJourn, an NGO. Entrejourn presents entrepreneurial journeys of mental resilience, we strive towards creating a stronger community by sharing lived experiences and narratives from a thriving community of Entrepreneurs by themselves.
 
 # Getting started
 
