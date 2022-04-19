@@ -4,7 +4,7 @@
 
 Website for EntreJourn, an NGO. Entrejourn presents entrepreneurial journeys of mental resilience, we strive towards creating a stronger community by sharing lived experiences and narratives from a thriving community of Entrepreneurs by themselves.
 
-# Getting started
+## Getting started
 
 1. Go to project folder and install dependencies:
 
@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-# Project structure
+## Project structure
 
 ```
 dist/                        web app production build
@@ -45,7 +45,7 @@ reports/                     test and coverage reports
 proxy.conf.js                backend proxy configuration
 ```
 
-# Main tasks
+## Main tasks
 
 Task automation is based on [NPM scripts](https://docs.npmjs.com/misc/scripts).
 
@@ -68,13 +68,13 @@ When building the application, you can specify the target configuration using th
 
 The default build configuration is `prod`.
 
-## Development server
+### Development server
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change
 any of the source files.
 You should not use `ng serve` directly, as it does not use the backend proxy configuration by default.
 
-## Code scaffolding
+### Code scaffolding
 
 Run `npm run generate -- component <name>` to generate a new component. You can also use
 `npm run generate -- directive|pipe|service|class|module`.
@@ -82,12 +82,12 @@ Run `npm run generate -- component <name>` to generate a new component. You can 
 If you have installed [angular-cli](https://github.com/angular/angular-cli) globally with `npm install -g @angular/cli`,
 you can also use the command `ng generate` directly.
 
-## Additional tools
+### Additional tools
 
 Tasks are mostly based on the `angular-cli` tool. Use `ng help` to get more help or go check out the
 [Angular-CLI README](https://github.com/angular/angular-cli).
 
-## Code formatting
+### Code formatting
 
 All `.ts`, `.js` & `.scss` files in this project are formatted automatically using [Prettier](https://prettier.io),
 and enforced via the `test:ci` script.
@@ -97,12 +97,12 @@ A pre-commit git hook has been configured on this project to automatically forma
 
 You can also force code formatting by running the command `npm run prettier`.
 
-# What's in the box
+## What's in the box
 
 The app template is based on [HTML5](http://whatwg.org/html), [TypeScript](http://www.typescriptlang.org) and
 [Sass](http://sass-lang.com). The translation files use the common [JSON](http://www.json.org) format.
 
-#### Tools
+### Tools
 
 Development, build and quality processes are based on [angular-cli](https://github.com/angular/angular-cli) and
 [NPM scripts](https://docs.npmjs.com/misc/scripts), which includes:
@@ -120,7 +120,7 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - Automatic Angular documentation generation using [Compodoc](https://compodoc.app)
 - Automatic code formatting with [Prettier](https://prettier.io)
 
-#### Libraries
+### Libraries
 
 - [Angular](https://angular.io)
 - [Bootstrap 4](https://getbootstrap.com)
@@ -129,7 +129,7 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - [RxJS](http://reactivex.io/rxjs)
 - [ngx-translate](https://github.com/ngx-translate/core)
 
-#### Coding guides
+### Coding guides
 
 - [Angular](docs/coding-guides/angular.md)
 - [TypeScript](docs/coding-guides/typescript.md)
@@ -138,7 +138,7 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - [Unit tests](docs/coding-guides/unit-tests.md)
 - [End-to-end tests](docs/coding-guides/e2e-tests.md)
 
-#### Other documentation
+### Other documentation
 
 - [I18n guide](docs/i18n.md)
 - [Working behind a corporate proxy](docs/corporate-proxy.md)
