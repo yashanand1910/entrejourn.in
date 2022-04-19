@@ -11,12 +11,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Revue, sans-serif;
+  font-weight: 800;
+}
+
+.btn {
+  font-weight: 500;
 }
 
 .btn-link {
-  font-family: Revue, sans-serif;
   text-decoration: none;
+  font-weight: 500;
 }
 
 // Miscellaneous

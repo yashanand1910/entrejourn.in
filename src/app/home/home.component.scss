@@ -5,6 +5,10 @@
   padding-bottom: $spacer * 5;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+
+  h1 {
+    font-size: 48px;
+  }
 }
 
 .popup-bg {
@@ -98,8 +102,9 @@
 
 .support-image-box {
   margin-top: -$spacer * 5;
-  transform: scale(1.4);
-  background-image: url("/src/assets/people-hands-achievement-group 1.png");
+  margin-right: -150px;
+  transform: scale(1.5);
+  background-image: url("../../assets/people-hands-achievement-group.png");
   background-size: cover;
   height: 520px;
 }
