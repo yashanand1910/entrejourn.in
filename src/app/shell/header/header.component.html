@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" routerLink="/" translate>
         <img height="40px" src="assets/logo-with-white-text.png" alt="EntreJourn" />
@@ -16,11 +16,20 @@
       </button>
       <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
         <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <a class="nav-item nav-link" routerLink="/" routerLinkActive="active">
+          <a
+            class="nav-item nav-link"
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:
+true}"
+          >
             <span translate>Home</span>
           </a>
           <a class="nav-item nav-link" routerLink="/videos" routerLinkActive="active">
             <span translate>Videos</span>
+          </a>
+          <a class="nav-item nav-link" routerLink="/podcast" routerLinkActive="active">
+            <span translate>Podcast</span>
           </a>
           <a class="nav-item nav-link" routerLink="/blog" routerLinkActive="active">
             <span translate>Blog</span>

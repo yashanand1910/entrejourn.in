@@ -3,3 +3,8 @@
 .nav-link.dropdown-toggle {
   cursor: pointer;
 }
+
+.navbar-brand {
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+}

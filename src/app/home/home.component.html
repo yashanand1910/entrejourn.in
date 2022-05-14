@@ -26,6 +26,7 @@
   </div>
 </div>
 
+<!-- TODO Switch better modal using ng-bootstrap -->
 <div (click)="togglePopup1()" *ngIf="displayVideo1" class="popup-bg d-flex" tabindex="-1" role="dialog">
   <iframe
     src="https://www.youtube.com/embed/BD24nptj8VU?controls=0"
@@ -48,85 +49,83 @@
 
 <div class="section-2">
   <div class="container">
-    <h1>A Platform for Sharing Journeys on Mental Well-Being of Entrepreneurs</h1>
-    <p class="pt-3 pb-3">
-      We believe staying mentally strong is a quintessential requirement for everyone and especially a must for an
-      entrepreneur; and also understand that having a strong mindset is both a skill and attitude, hence can be
-      nurtured, practiced and developed.
-    </p>
-    <a (click)="togglePopup2()" class="btn-link btn-link-primary cursor-pointer"
-      ><i class="fas fa-play-circle"></i> Play Video</a
-    >
-    <div (click)="togglePopup2()" class="video-box">
-      <img src="assets/section-2-video-thumbnail.jpg" alt="Section 2 Video" />
+    <div class="row">
+      <div class="col-7">
+        <h1>Journeys on Mental<br />Well-Being of Entrepreneurs</h1>
+        <p class="pt-3 pb-3">
+          We believe staying mentally strong is a quintessential requirement for everyone and especially a must for an
+          entrepreneur; and also understand that having a strong mindset is both a skill and attitude, hence can be
+          nurtured, practiced and developed.
+        </p>
+        <a (click)="togglePopup2()" class="btn-link btn-link-primary cursor-pointer"
+          ><i class="fas fa-play-circle"></i> Play Video</a
+        >
+      </div>
+      <div class="col-5">
+        <div (click)="togglePopup2()" class="video-box">
+          <img src="assets/section-2-video-thumbnail.png" alt="Section 2 Video" />
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="section-3">
   <div class="container">
-    <h1>Our Mission</h1>
-    <div class="row mt-5 pt-5">
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-gas-pump"></i>
+    <h1 class>Our Mission: <span class="text-secondary">Raise Awareness</span></h1>
+    <div class="row">
+      <p class="pb-3 pt-3">
+        EntreJourn is an innovative and the first-of-its-kind community-based project that welcomes entrepreneurs from
+        every discipline and culture who are not just passionate about their venture but are also willing to share their
+        entrepreneurial journey, their struggles and challenges with respect to mental well-being. With these
+        narratives, we hope to engage entrepreneurs to share and also spark conversations around mental health amongst
+        entrepreneurs.
+      </p>
+    </div>
+    <div class="row pt-5">
+      <div class="col-6 mb-5">
+        <div class="mission-box" routerLink="/videos">
+          <div class="mission-icon-box">
+            <i class="fas fa-video"></i>
+          </div>
+          <h4>Videos</h4>
+          <p>Explore our newest conversation episode!</p>
         </div>
-        <h4>ABC</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
       </div>
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-gas-pump"></i>
+      <div class="col-6 mb-5">
+        <div class="mission-box" routerLink="/podcast">
+          <div class="mission-icon-box">
+            <i class="fas fa-podcast"></i>
+          </div>
+          <h4>Podcast</h4>
+          <p>Our conversation series in the audio format.</p>
         </div>
-        <h4>XYZ</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
       </div>
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-directions"></i>
+      <div class="col-6 mb-5">
+        <div class="mission-box" routerLink="/">
+          <div class="mission-icon-box">
+            <i class="fas fa-comment-medical"></i>
+          </div>
+          <h4>Consult / Connect</h4>
+          <p>Coming soon!</p>
         </div>
-        <h4>PQRS</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
       </div>
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-tree"></i>
+      <div class="col-6 mb-5">
+        <div class="mission-box" routerLink="/blog">
+          <div class="mission-icon-box">
+            <i class="fas fa-feather"></i>
+          </div>
+          <h4>Share your Experiences</h4>
+          <p>Share your experiences on our blog!</p>
         </div>
-        <h4>LMA</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
       </div>
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-lightbulb"></i>
-        </div>
-        <h4>LADJ</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
-      </div>
-      <div class="col-4 mb-5">
-        <div class="mission-icon-box">
-          <i class="fas fa-arrow-alt-circle-down"></i>
-        </div>
-        <h4>AMR</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
-      </div>
+    </div>
+    <div class="row">
+      <p>
+        Here at EntreJourn, we are with a mission to build a community by bringin entrepreneurs together on one
+        platform. We want to create, share and connect with entrepreneurs and their allies from different backgrounds at
+        various stages of their venture.
+      </p>
     </div>
   </div>
 </div>

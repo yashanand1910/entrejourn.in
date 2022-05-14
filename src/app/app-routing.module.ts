@@ -13,6 +13,10 @@ const routes: Routes = [
       loadChildren: () => import('./blog/blog.module').then((m) => m.BlogModule)
     },
     {
+      path: 'podcast',
+      loadChildren: () => import('./podcast/podcast.module').then((m) => m.PodcastModule)
+    },
+    {
       path: 'about',
       loadChildren: () => import('./about/about.module').then((m) => m.AboutModule)
     }
