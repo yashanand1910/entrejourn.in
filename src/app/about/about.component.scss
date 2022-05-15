@@ -1,3 +1,51 @@
-.container-fluid {
-  height: 200px;
+@import "src/theme/theme-variables";
+
+.about-container {
+  color: $white;
+  padding-top: 10 * $spacer;
+  min-height: 700px;
+  height: 100%;
+  background: $dark-blue;
+}
+
+.logo {
+  height: 300px;
+  margin: 50px;
+}
+
+.interns-section {
+  margin-top: 10 * $spacer;
+  margin-bottom: 5 * $spacer;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    border: 2px solid $white;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+  .name {
+    margin-top: $spacer;
+    color: $blue;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  .description {
+    font-size: 18px;
+  }
+}
+
+.closing-para {
+  margin-top: 10 * $spacer;
+  margin-bottom: 10 * $spacer;
+  font-size: 20px;
 }

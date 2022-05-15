@@ -62,11 +62,11 @@
   flex-direction: column;
   cursor: pointer;
   transition: 0.2s;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .mission-box:hover {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 1);
 }
 
 .mission-icon-box {
@@ -88,27 +88,55 @@
 }
 
 .video-big-box {
-  display: flex;
   height: 600px;
   margin-right: $spacer;
-  background-color: $gray-200;
+  background-color: $black;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
   color: $gray-500;
   font-size: 40px;
+  overflow: hidden;
+  cursor: pointer;
+
+  img {
+    margin-left: -225px;
+    opacity: 0.75;
+    height: 100%;
+  }
+
+  .title {
+    position: relative;
+    bottom: 140px;
+    font-size: 24px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0;
+    padding: 2 * $spacer;
+    color: $white;
+  }
 }
 
 .video-small-box {
+  cursor: pointer;
   display: flex;
   height: 188px;
   margin-bottom: $spacer;
-  background-color: $gray-200;
+  background-color: $black;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
   color: $gray-500;
   font-size: 30px;
+  overflow: hidden;
+
+  img {
+    opacity: 0.75;
+    height: 100%;
+  }
+
+  .title {
+  }
 }
 
 .section-5 {

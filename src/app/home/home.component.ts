@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VideoService } from '@app/@shared/video.service';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   displayVideo1 = false;
   displayVideo2 = false;
+  topVideos: any[] = [];
 
-  constructor() {}
+  constructor(private videoService: VideoService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.videoService.getTopVideos().subscribe((videos) => {
+      this.topVideos = videos;
+    });
+  }
 
   togglePopup1() {
     this.displayVideo1 = !this.displayVideo1;

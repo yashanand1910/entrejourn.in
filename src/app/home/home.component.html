@@ -142,19 +142,24 @@
     </div>
     <div class="row mt-5">
       <div class="col-8">
-        <div class="video-big-box">
-          <i class="fas fa-spinner fa-pulse"></i>
+        <div class="video-big-box" routerLink="/videos">
+          <img [src]="topVideos[0].snippet.thumbnails.medium.url" />
+          <div class="title">{{ topVideos[0].snippet.title }}</div>
+          <!-- <i class="fas fa-spinner fa-pulse"></i> -->
         </div>
       </div>
       <div class="col-4">
-        <div class="video-small-box">
-          <i class="fas fa-spinner fa-pulse"></i>
+        <div class="video-small-box" routerLink="/videos">
+          <img [src]="topVideos[1].snippet.thumbnails.medium.url" />
+          <!-- <i class="fas fa-spinner fa-pulse"></i> -->
         </div>
-        <div class="video-small-box">
-          <i class="fas fa-spinner fa-pulse"></i>
+        <div class="video-small-box" routerLink="/videos">
+          <img [src]="topVideos[2].snippet.thumbnails.medium.url" />
+          <!-- <i class="fas fa-spinner fa-pulse"></i> -->
         </div>
-        <div class="video-small-box">
-          <i class="fas fa-spinner fa-pulse"></i>
+        <div class="video-small-box" routerLink="/videos">
+          <img [src]="topVideos[4].snippet.thumbnails.medium.url" />
+          <!-- <i class="fas fa-spinner fa-pulse"></i> -->
         </div>
       </div>
     </div>
@@ -170,7 +175,7 @@
           We’d love to connect with people who share our vision and passion to build this community together! Get in
           touch with us to help, support and grow this community!
         </p>
-        <button class="btn btn-outline-primary" routerLink="/about">Contact Us</button>
+        <button class="btn btn-outline-primary" routerLink="/about">Join Us</button>
       </div>
       <div class="col-6">
         <div class="support-image-box"></div>
