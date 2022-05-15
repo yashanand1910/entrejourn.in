@@ -1,3 +1,56 @@
-<div class="container text-center">
-  <h3><i class="fas fa-spinner fa-pulse"></i> Loading video catalog...</h3>
+<div class="title-box">
+  <div class="container heading-container">
+    <div>
+      <h1>Videos</h1>
+      <p>Explore our conversations series.</p>
+    </div>
+    <div class="input-group mb-3">
+      <input
+        [(ngModel)]="searchQuery"
+        type="text"
+        class="form-control"
+        placeholder="E.g. mental well-being"
+        aria-label="Search"
+        aria-describedby="button-addon2"
+      />
+      <button class="btn btn-secondary" type="button" id="button-addon2">Search</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="isLoading" class="loading-container">
+  <h3><i class="fas fa-spinner fa-pulse"></i> Loading videos...</h3>
+</div>
+<div *ngIf="!isLoading" class="container video-list">
+  <div class="pagination">
+    <span class="page-info"
+      >Showing {{(5 * page)-4}}-{{math.min((5 * page)+pageSize-5, videos.length)}} of {{videos.length}} videos</span
+    >
+    <ngb-pagination [(page)]="page" [pageSize]="pageSize" [collectionSize]="videos.length"></ngb-pagination>
+  </div>
+  <a
+    href="https://www.youtube.com/watch?v={{video.id.videoId}}"
+    *ngFor="let video of videos | slice: (page-1) * pageSize : page * pageSize | search: searchQuery"
+    class="card video-box"
+  >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img [src]="video.snippet.thumbnails.medium.url" class="img-fluid rounded-start" alt="..." />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" [innerHTML]="video.snippet.title"></h5>
+          <p class="card-text">{{video.snippet.description}}</p>
+          <p class="card-text">
+            <small class="text-muted">Posted on {{video.snippet.publishedAt | date: 'medium'}}</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class="pagination">
+    <span class="page-info"
+      >Showing {{(5 * page)-4}}-{{math.min((5 * page)+pageSize-5, videos.length)}} of {{videos.length}} videos</span
+    >
+    <ngb-pagination [(page)]="page" [pageSize]="pageSize" [collectionSize]="videos.length"></ngb-pagination>
+  </div>
 </div>
