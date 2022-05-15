@@ -10,6 +10,9 @@ export const environment = {
   production: true,
   version: env['npm_package_version'],
   serverUrl: 'https://api.chucknorris.io',
+  googleApiUrl: 'https://www.googleapis.com/youtube/v3',
+  googleApiKey: env['GOOGLE_API_KEY'],
+  youtubeChannelId: 'UCQeL_8OTwzomVzcc2eZIXLg',
   defaultLanguage: 'en-US',
   supportedLanguages: ['en-US']
 };

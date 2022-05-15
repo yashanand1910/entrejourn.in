@@ -14,6 +14,9 @@ export const environment = {
   production: false,
   version: env['npm_package_version'] + '-dev',
   serverUrl: '/api',
+  googleApiUrl: 'https://www.googleapis.com',
+  googleApiKey: env['GOOGLE_API_KEY'],
+  youtubeChannelId: 'UCQeL_8OTwzomVzcc2eZIXLg',
   defaultLanguage: 'en-US',
   supportedLanguages: ['en-US']
 };

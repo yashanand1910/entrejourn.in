@@ -52,6 +52,7 @@
 }
 
 .mission-box {
+  padding-top: $spacer;
   border-radius: 20px;
   height: 200px;
   width: 100%;
@@ -61,10 +62,11 @@
   flex-direction: column;
   cursor: pointer;
   transition: 0.2s;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .mission-box:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .mission-icon-box {

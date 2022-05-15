@@ -1,6 +1,6 @@
+@import "src/theme/theme-variables.scss";
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
+  margin-top: 5 * $spacer;
+  min-height: 300px;
 }
