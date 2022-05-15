@@ -37,7 +37,7 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">{{video.snippet.title}}</h5>
+          <h5 class="card-title" [innerHTML]="video.snippet.title"></h5>
           <p class="card-text">{{video.snippet.description}}</p>
           <p class="card-text">
             <small class="text-muted">Posted on {{video.snippet.publishedAt | date: 'medium'}}</small>
