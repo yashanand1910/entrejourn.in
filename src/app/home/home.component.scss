@@ -136,10 +136,9 @@
 }
 
 .blog-post {
-  background-color: $white;
   border-radius: 20px;
-  height: 400px;
-  padding: $spacer;
+  overflow: hidden;
+  height: 500px;
 }
 
 .post-image {
