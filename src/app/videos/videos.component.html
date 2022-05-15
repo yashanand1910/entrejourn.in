@@ -6,6 +6,7 @@
     </div>
     <div class="input-group mb-3">
       <input
+        [(ngModel)]="searchQuery"
         type="text"
         class="form-control"
         placeholder="E.g. mental well-being"
@@ -28,7 +29,7 @@
   </div>
   <a
     href="https://www.youtube.com/watch?v={{video.id.videoId}}"
-    *ngFor="let video of videos |  slice: (page-1) * pageSize : page * pageSize"
+    *ngFor="let video of videos | slice: (page-1) * pageSize : page * pageSize | search: searchQuery"
     class="card video-box"
   >
     <div class="row g-0">

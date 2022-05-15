@@ -8,6 +8,7 @@ import { delay } from 'rxjs';
   styleUrls: ['./videos.component.scss']
 })
 export class VideosComponent implements OnInit {
+  searchQuery = '';
   isLoading: boolean = false;
   math = Math;
   page = 0;
