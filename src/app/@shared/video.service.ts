@@ -35,9 +35,8 @@ export class VideoService {
       })
       .pipe(
         map((res) => {
-          console.debug(res);
           for (let i = 0; i < 4; i++) {
-            this.topVideos.push(res['items'][i]);
+            this.topVideos = res['items'].slice(0, 5);
           }
           return res;
         })
