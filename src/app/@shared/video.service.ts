@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { environment } from '@env/environment';
 import { Observable, map, of } from 'rxjs';
 import { forEachChild } from 'typescript';
-import res from './videos';
+import res from './videos.json';
 
 @Injectable({
   providedIn: 'root'

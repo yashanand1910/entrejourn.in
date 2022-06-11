@@ -1,0 +1,20 @@
+name: Update videos
+concurrency:
+  cancel-in-progress: true
+  group: update-videos
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+jobs:
+  update_videos:
+    name: Query videos and update videos.json
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY  }}
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.0.0
+        message: 'chore: update videos'
