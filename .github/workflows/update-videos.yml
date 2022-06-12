@@ -2,10 +2,7 @@ name: Update videos
 concurrency:
   cancel-in-progress: true
   group: update-videos
-on:
-  - workflow-dispatch
-  - schedule:
-    - cron: '0 */3 * * *'
+on: workflow-dispatch
 jobs:
   update_videos:
     name: Query videos and update videos.json
