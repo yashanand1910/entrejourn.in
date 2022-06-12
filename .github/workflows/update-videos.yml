@@ -3,8 +3,8 @@ concurrency:
   cancel-in-progress: true
   group: update-videos
 on:
-  workflow-dispatch
-  schedule:
+  - workflow-dispatch
+  - schedule:
     - cron: '0 */3 * * *'
 jobs:
   update_videos:
