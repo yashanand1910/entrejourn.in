@@ -12,7 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Checkout
+        
+      - name: Run script
+        run: npm run update:videos
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.0.0
-        message: 'chore: update videos'
+        with:
+          message: 'chore: update videos'
