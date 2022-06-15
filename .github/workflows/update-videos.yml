@@ -2,9 +2,7 @@ name: Update videos
 concurrency:
   cancel-in-progress: true
   group: update-videos
-on:
-  schedule:
-    - cron: '0 */3 * * *'
+on: workflow_dispatch
 jobs:
   update_videos:
     name: Query videos and update videos.json
@@ -14,7 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Checkout
+        
+      - name: Install
+        run: npm ci
+        
+      - name: Run script
+        run: npm run update:videos
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.0.0
-        message: 'chore: update videos'
+        with:
+          message: 'chore: update videos'
