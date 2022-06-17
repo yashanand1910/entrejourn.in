@@ -1,26 +1,26 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "HALjpx24lrw5ymY-H2urA1Uj6_M",
+  "etag": "msbB1R623ag6qIY9AWDH4xzvrhs",
   "regionCode": "US",
   "pageInfo": { "totalResults": 23, "resultsPerPage": 23 },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "SYEJhHc0gyz_i3KF3LFAHArzvZM",
+      "etag": "t1MUmJaAAkgr8pxZDBCyabdHaYA",
       "id": { "kind": "youtube#video", "videoId": "2W6yh526G6g" },
       "snippet": {
-        "publishedAt": "2022-06-15T14:22:43Z",
+        "publishedAt": "2022-06-17T12:30:11Z",
         "channelId": "UCQeL_8OTwzomVzcc2eZIXLg",
         "title": "Entrepreneurship &amp; Women: Challenges and Stress Management | Special Conversation | Part 3",
         "description": "womenentrepreneurs #conversation #selfcare Listen to Maansi Agrawal, a transformational speaker, an international corporate ...",
         "thumbnails": {
-          "default": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/default_live.jpg", "width": 120, "height": 90 },
-          "medium": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/mqdefault_live.jpg", "width": 320, "height": 180 },
-          "high": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/hqdefault_live.jpg", "width": 480, "height": 360 }
+          "default": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/2W6yh526G6g/hqdefault.jpg", "width": 480, "height": 360 }
         },
         "channelTitle": "EntreJourn",
-        "liveBroadcastContent": "upcoming",
-        "publishTime": "2022-06-15T14:22:43Z"
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-17T12:30:11Z"
       }
     },
     {
