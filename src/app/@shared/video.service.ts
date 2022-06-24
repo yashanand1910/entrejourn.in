@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { environment } from '@env/environment';
 import { Observable, map, of } from 'rxjs';
 import { forEachChild } from 'typescript';
-import res from './videos';
+import res from './videos.json';
 
 @Injectable({
   providedIn: 'root'
@@ -35,9 +35,8 @@ export class VideoService {
       })
       .pipe(
         map((res) => {
-          console.debug(res);
           for (let i = 0; i < 4; i++) {
-            this.topVideos.push(res['items'][i]);
+            this.topVideos = res['items'].slice(0, 5);
           }
           return res;
         })
