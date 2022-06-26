@@ -42,7 +42,7 @@ export class AboutComponent implements OnInit {
       entrepreneurs.`
     },
     {
-      name: 'Bhanu Sherawat',
+      name: 'Bhanu Sehrawat',
       photo: 'assets/team/bhanu.jpeg',
       subtitle: 'Core Team Member',
       description: `A Doctoral Candidate at the Indian Institute of Technology Madras, India, Bhanu is a Human Resources
