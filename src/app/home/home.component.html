@@ -134,17 +134,17 @@
   <div class="container">
     <div class="row">
       <div class="col-8">
-        <h1>Our Conversation Series</h1>
+        <h1>Explore our Videos</h1>
       </div>
       <div class="col-4">
-        <button class="btn btn-primary float-end" routerLink="/videos">Explore Videos</button>
+        <button class="btn btn-primary float-end" routerLink="/videos">Watch Now</button>
       </div>
     </div>
     <div class="row mt-5">
       <div class="col-8">
         <div class="video-big-box" routerLink="/videos">
           <img [src]="topVideos[0].snippet.thumbnails.medium.url" />
-          <div class="title">{{ topVideos[0].snippet.title }}</div>
+          <div class="title" [innerHTML]="topVideos[0].snippet.title"></div>
           <!-- <i class="fas fa-spinner fa-pulse"></i> -->
         </div>
       </div>
