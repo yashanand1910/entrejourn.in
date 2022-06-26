@@ -1,0 +1,34 @@
+@import "src/theme/theme-variables";
+
+.modal-body {
+  display: flex;
+  padding: 2 * $spacer;
+}
+
+.name {
+  color: $rich-pink;
+}
+
+.subtitle {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.description {
+  margin-top: $spacer;
+  text-align: justify;
+}
+
+.details {
+  padding-left: 2 * $spacer;
+}
+
+.photo {
+  height: 300px;
+  width: 300px;
+
+  img {
+    border-radius: 25px;
+    height: 100%;
+  }
+}

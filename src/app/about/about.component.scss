@@ -12,6 +12,84 @@
   margin: 50px;
 }
 
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5 * $spacer;
+}
+
+.team-section {
+  color: $black;
+  background: $blue;
+  margin-top: 10 * $spacer;
+  margin-bottom: 5 * $spacer;
+  padding-top: 5 * $spacer;
+  padding-bottom: 5 * $spacer;
+
+  .title {
+    color: $dark-blue;
+  }
+}
+
+.team-member-box {
+  display: flex;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: $spacer;
+  border-radius: 25px;
+  height: 300px;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: $white;
+  }
+
+  .photo {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 250px;
+    height: 100%;
+    background: red;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .details {
+    height: 100%;
+    width: auto;
+    padding: 2 * $spacer;
+  }
+
+  .name {
+    color: $rich-pink;
+  }
+
+  .subtitle {
+    line-height: 0.8;
+    color: $dark-blue;
+    font-weight: bold;
+  }
+
+  .description {
+    margin-top: 2 * $spacer;
+    text-overflow: ellipsis;
+    height: 100px;
+    display: box;
+    max-width: 300px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .info-button {
+    margin-top: 2 * $spacer;
+  }
+}
+
 .interns-section {
   margin-top: 10 * $spacer;
   margin-bottom: 5 * $spacer;

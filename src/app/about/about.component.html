@@ -8,19 +8,44 @@
       looking for new talent. If you love to help and like challenges - come and join us!
     </p>
   </div>
+
+  <!-- Team Section -->
+
+  <div class="team-section">
+    <div class="container">
+      <div class="title"><h1>Meet the Team</h1></div>
+      <div class="row">
+        <div *ngFor="let member of teamMembers; let i = index" (click)="openTeamMemberModal(i)" class="col-6">
+          <div class="team-member-box">
+            <div class="photo"><img [src]="member.photo" alt="" /></div>
+            <div class="details">
+              <h3 class="name">{{ member.name }}</h3>
+              <div class="subtitle">{{ member.subtitle.split('|')[0] }}</div>
+              <div class="description">{{ member.description }}</div>
+              <div class="info-button"><a class="btn-link">Read more</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interns Section -->
+
   <div class="container text-center interns-section">
-    <h1 class="mb-3">Our Interns and Volunteers</h1>
+    <div class="title"><h1>Meet the Interns &#38; Volunteers</h1></div>
     <div class="row mt-5">
       <div class="col-3 info-box">
-        <div class="photo"><img src="assets/team/shailvi.png" alt="" /></div>
+        <div class="photo"><img src="assets/team/shailvi.jpeg" alt="" /></div>
         <div class="name">Shailvi Pandit</div>
         <div class="description">Narsee Monjee Institute of Management Studies, Bangalore</div>
       </div>
       <div class="col-3 info-box">
-        <div class="photo"><img src="assets/team/mohit.png" alt="" /></div>
+        <div class="photo"><img src="assets/team/mohit.jpeg" alt="" /></div>
         <div class="name">Mohit Goyal</div>
         <div class="description">Symbiosis Center for Management Studies</div>
       </div>
+
       <div class="col-3 info-box">
         <div class="photo"><img src="assets/team/daanish.png" alt="" /></div>
         <div class="name">Daanish Ameen</div>
@@ -56,12 +81,12 @@
     </div>
     <div class="row mt-5">
       <div class="col-3 info-box">
-        <div class="photo"><img src="assets/team/anubhav.png" alt="" /></div>
+        <div class="photo"><img src="assets/team/anubhav.jpeg" alt="" /></div>
         <div class="name">Anubhav</div>
         <div class="description">Narsee Monjee Institute of Management Studies, Bangalore</div>
       </div>
       <div class="col-3 info-box">
-        <div class="photo"><img src="assets/team/aarav.png" alt="" /></div>
+        <div class="photo"><img src="assets/team/aarav.jpeg" alt="" /></div>
         <div class="name">Aarav Shah</div>
         <div class="description">Symbiosis Centre for Management Studies, Pune</div>
       </div>
@@ -71,7 +96,7 @@
         <div class="description">Volunteer</div>
       </div>
       <div class="col-3 info-box">
-        <div class="photo"><img src="assets/team/anupama.png" alt="" /></div>
+        <div class="photo"><img src="assets/team/anupama.jpg" alt="" /></div>
         <div class="name">Anupama Anand</div>
         <div class="description">Volunteer</div>
       </div>
