@@ -1,12 +1,21 @@
 <div class="about-container">
-  <div class="container text-center">
+  <div class="first-section container text-center">
     <!-- <img src="assets/logo-4x.png" class="logo" /> -->
-    <h1>About Us</h1>
+    <!-- <h1>About Us</h1> -->
     <p class="pt-3">
       We are passionate and compassionate professionals, driven by the shared mission of building a community for
       entrepreneurs and their allies. We are based in different places and work remotely. We are growing fast and always
       looking for new talent. If you love to help and like challenges - come and join us!
     </p>
+  </div>
+
+  <!-- Story Section -->
+
+  <div class="story-section">
+    <div class="title"><h1>Our Story</h1></div>
+    <div class="story-image" *ngFor="let image of getStoryImages()">
+      <img [src]="image" alt="" />
+    </div>
   </div>
 
   <!-- Team Section -->

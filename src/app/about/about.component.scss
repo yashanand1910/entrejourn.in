@@ -7,6 +7,11 @@
   background: $dark-blue;
 }
 
+.first-section {
+  padding-bottom: 5 * $spacer;
+  font-size: 20px;
+}
+
 .logo {
   height: 300px;
   margin: 50px;
@@ -18,10 +23,34 @@
   margin-bottom: 5 * $spacer;
 }
 
+.story-section {
+  display: flex;
+  padding: 5 * $spacer 0;
+  width: 100%;
+  background: $white;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    color: $dark-blue;
+  }
+
+  .story-image {
+    margin: $spacer;
+    height: 500px;
+
+    img {
+      user-drag: none;
+      -webkit-user-drag: none;
+      user-select: none;
+      height: 100%;
+    }
+  }
+}
+
 .team-section {
   color: $black;
   background: $blue;
-  margin-top: 10 * $spacer;
   margin-bottom: 5 * $spacer;
   padding-top: 5 * $spacer;
   padding-bottom: 5 * $spacer;
@@ -48,19 +77,19 @@
   .photo {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    width: 250px;
     height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     overflow: hidden;
 
     img {
-      height: 100%;
-      width: 100%;
+      width: 250px;
     }
   }
 
   .details {
     height: 100%;
-    width: auto;
     padding: 2 * $spacer;
   }
 
@@ -69,7 +98,6 @@
   }
 
   .subtitle {
-    line-height: 1;
     color: $dark-blue;
     font-weight: bold;
     font-size: 14px;
@@ -79,7 +107,7 @@
     margin-top: 2 * $spacer;
     text-overflow: ellipsis;
     height: 75px;
-    display: box;
+    display: flex;
     max-width: 300px;
     -webkit-line-clamp: 3;
     overflow: hidden;

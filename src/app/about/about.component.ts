@@ -75,4 +75,14 @@ export class AboutComponent implements OnInit {
     modalRef.componentInstance.subtitle = this.teamMembers[index].subtitle;
     modalRef.componentInstance.description = this.teamMembers[index].description;
   }
+
+  getStoryImages() {
+    const images = [];
+    const baseURL = 'assets/story/';
+    for (let i = 1; i <= 6; i++) {
+      images.push(baseURL + `${i}.jpg`);
+    }
+
+    return images;
+  }
 }
