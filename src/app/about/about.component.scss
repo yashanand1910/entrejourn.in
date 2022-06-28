@@ -69,18 +69,19 @@
   }
 
   .subtitle {
-    line-height: 0.8;
+    line-height: 1;
     color: $dark-blue;
     font-weight: bold;
+    font-size: 14px;
   }
 
   .description {
     margin-top: 2 * $spacer;
     text-overflow: ellipsis;
-    height: 100px;
-    display: flex;
+    height: 75px;
+    display: box;
     max-width: 300px;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     overflow: hidden;
   }
 

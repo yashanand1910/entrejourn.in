@@ -1,6 +1,6 @@
 <div class="about-container">
   <div class="container text-center">
-    <img src="assets/logo-4x.png" class="logo" />
+    <!-- <img src="assets/logo-4x.png" class="logo" /> -->
     <h1>About Us</h1>
     <p class="pt-3">
       We are passionate and compassionate professionals, driven by the shared mission of building a community for
@@ -20,7 +20,7 @@
             <div class="photo"><img [src]="member.photo" alt="" /></div>
             <div class="details">
               <h3 class="name">{{ member.name }}</h3>
-              <div class="subtitle">{{ member.subtitle.split('|')[0] }}</div>
+              <div class="subtitle">{{ member.subtitle }}</div>
               <div class="description">{{ member.description }}</div>
               <div class="info-button"><a class="btn-link">Read more</a></div>
             </div>

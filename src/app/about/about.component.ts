@@ -28,7 +28,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'Avinash Sharma',
       photo: 'assets/team/avinash.jpeg',
-      subtitle: 'Co-Creator & Strategist | Principal - Network & Community Building',
+      subtitle: 'Co-Creator & Strategist | Principal - Networking & Community Building',
       description: `Avinash has been an entrepreneur for 9+ years now. Though he comes from a humble background and
         average schooling in Jaipur, he never let it stop him from chasing his dream of being an entrepreneur. Avinash
       believes in giving back to the entrepreneurship ecosystem of the country and with such a belief he works with
@@ -44,7 +44,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'Bhanu Sehrawat',
       photo: 'assets/team/bhanu.jpeg',
-      subtitle: 'Core Team Member',
+      subtitle: 'Co-Creator & Strategist | Principal - Digital Media',
       description: `A Doctoral Candidate at the Indian Institute of Technology Madras, India, Bhanu is a Human Resources
       Professional with experience with not for profit organisations and corporates.  Her areas of interest include
         strategic inclusion at workplace and related issues pertaining to community, business and neurodiversity
@@ -55,7 +55,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'Rubina Pradhan',
       photo: 'assets/team/rubina.jpeg',
-      subtitle: 'Core Team Member',
+      subtitle: 'Co-Creator & Strategist | Principal - Website & Content',
       description: `Rubina holds postgraduate degrees in Forensic Mental Health Science from King’s College London and
       Clinical Psychology from the University of Calcutta. Having lived and worked in multiple cities and countries, she
       is currently in her hometown helping with the family business and other community related social ventures. When
