@@ -44,9 +44,19 @@
   margin: 5 * $spacer 0 10 * $spacer 0;
   text-align: center;
 
+  .carousel-container {
+    margin-top: 2 * $spacer;
+    padding: 2 * $spacer;
+    border: 3px solid $light-pink;
+  }
+
+  .title {
+    text-align: left;
+  }
+
   ::ng-deep {
     .carousel-indicators {
-      margin-bottom: -50px;
+      margin-bottom: -100px;
     }
 
     button {
