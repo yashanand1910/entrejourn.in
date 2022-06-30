@@ -26,4 +26,14 @@ export class HomeComponent implements OnInit {
   togglePopup2() {
     this.displayVideo2 = !this.displayVideo2;
   }
+
+  getStoryImages() {
+    const images = [];
+    const baseURL = 'assets/story/';
+    for (let i = 1; i <= 6; i++) {
+      images.push(baseURL + `${i}.jpg`);
+    }
+
+    return images;
+  }
 }

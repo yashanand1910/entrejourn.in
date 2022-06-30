@@ -40,6 +40,52 @@
   }
 }
 
+.story-section {
+  margin: 5 * $spacer 0 10 * $spacer 0;
+  text-align: center;
+
+  .carousel-container {
+    margin-top: 2 * $spacer;
+    padding: 2 * $spacer;
+    border: 3px solid $light-pink;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  ::ng-deep {
+    .carousel-indicators {
+      margin-bottom: -100px;
+    }
+
+    button {
+      background: $light-pink;
+    }
+  }
+
+  .picsum-img-wrapper {
+    height: 500px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.section-1 {
+  display: flex;
+  padding: 5 * $spacer 0;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    max-width: 1000px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+}
 .section-2 {
   padding-bottom: $spacer * 5;
   padding-top: $spacer * 5;
@@ -100,20 +146,22 @@
   cursor: pointer;
 
   img {
-    margin-left: -225px;
     opacity: 0.75;
     height: 100%;
   }
 
   .title {
     position: relative;
-    bottom: 140px;
+    bottom: 100px;
     font-size: 24px;
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
     left: 0;
     padding: 2 * $spacer;
     color: $white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -146,7 +194,7 @@
 .support-content-box {
   padding-top: $spacer * 5;
   background-color: $rich-pink;
-  z-index: 99999;
+  z-index: 999;
   border-radius: 100px;
 }
 
