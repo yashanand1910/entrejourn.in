@@ -13,7 +13,7 @@
 
   <div class="story-section">
     <div class="title"><h1>Our Story</h1></div>
-    <div class="story-image" *ngFor="let image of getStoryImages()">
+    <div class="story-image {{ 'no-' + i%2 }}" *ngFor="let image of getStoryImages(); let i = index">
       <img [src]="image" alt="" />
     </div>
   </div>
