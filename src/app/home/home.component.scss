@@ -40,6 +40,29 @@
   }
 }
 
+.story-section {
+  margin: 5 * $spacer 0 10 * $spacer 0;
+  text-align: center;
+
+  ::ng-deep {
+    .carousel-indicators {
+      margin-bottom: -50px;
+    }
+
+    button {
+      background: $light-pink;
+    }
+  }
+
+  .picsum-img-wrapper {
+    height: 500px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
 .section-1 {
   display: flex;
   padding: 5 * $spacer 0;
