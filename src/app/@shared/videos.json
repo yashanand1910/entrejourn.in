@@ -1,9 +1,28 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "aW4BUQMypuYyKLfmpLZ3kHOdqjQ",
+  "etag": "1Vp7cHah5mzhTkJS3hssHX_vQ14",
   "regionCode": "US",
-  "pageInfo": { "totalResults": 25, "resultsPerPage": 24 },
+  "pageInfo": { "totalResults": 26, "resultsPerPage": 25 },
   "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3xp1RNHhto8fqbX4VIIGzT7mqjQ",
+      "id": { "kind": "youtube#video", "videoId": "WbqXVJYob2c" },
+      "snippet": {
+        "publishedAt": "2022-07-10T12:30:12Z",
+        "channelId": "UCQeL_8OTwzomVzcc2eZIXLg",
+        "title": "In Conversation with Arjun &amp; Trisha Vaidya | S02 E01 I Couplepreneurs &amp; their mental health?",
+        "description": "For our first episode of EntreJourn Conversation Series: Season 2, we are joined by Arjun Vaidya and Trisha Vaidya of Dr.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/WbqXVJYob2c/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/WbqXVJYob2c/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/WbqXVJYob2c/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "EntreJourn",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-10T12:30:12Z"
+      }
+    },
     {
       "kind": "youtube#searchResult",
       "etag": "bMzKjT6HHn4Ti9YcvtEnp1L9Auw",
@@ -63,7 +82,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "pYLgKM69BM7ozBICrD3ed7X1r8o",
+      "etag": "gTUTIygXr10yemZoI0hC_YZ2_zk",
       "id": { "kind": "youtube#video", "videoId": "zwFOJh2dqss" },
       "snippet": {
         "publishedAt": "2022-06-03T12:30:09Z",
@@ -177,7 +196,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "4FA2_wC9_cOVKd7tT1qYk2pGoWE",
+      "etag": "mpqMcMA4buuGVwYNonTSx1v30c4",
       "id": { "kind": "youtube#video", "videoId": "60yG6viqo7Q" },
       "snippet": {
         "publishedAt": "2022-04-02T05:30:54Z",
