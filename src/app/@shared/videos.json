@@ -1,12 +1,31 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "_otJDkME1NQCT1yxnj07BEBRq-A",
+  "etag": "bms2Z5dKeDkKEYw8eOYYRmVU2Ck",
   "regionCode": "US",
-  "pageInfo": { "totalResults": 27, "resultsPerPage": 27 },
+  "pageInfo": { "totalResults": 28, "resultsPerPage": 28 },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "nRQ8aqYprrFqjrEeKnb3YtBt2Jk",
+      "etag": "hBukcjCR8IFsaPs0xOOaukGfDiE",
+      "id": { "kind": "youtube#video", "videoId": "sXcsl5-d5ZY" },
+      "snippet": {
+        "publishedAt": "2022-08-10T13:09:18Z",
+        "channelId": "UCQeL_8OTwzomVzcc2eZIXLg",
+        "title": "In Conversation with Ar Sawant Goswami and Kejal Patel | S02 E04 | Couplepreneurs &amp; Mental health",
+        "description": "For our fourth episode of EntreJourn Conversation Series: Season 2, Ar. Sawant Goswami and Ar. Kejal Patel, Principal Architects ...",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/sXcsl5-d5ZY/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/sXcsl5-d5ZY/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/sXcsl5-d5ZY/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "EntreJourn",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-10T13:09:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ULSUO4iSvAfK3nXmhVH4BYQMFm8",
       "id": { "kind": "youtube#video", "videoId": "ByH8az5MgdY" },
       "snippet": {
         "publishedAt": "2022-07-30T12:36:31Z",
@@ -158,7 +177,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "2-zzCXWi_z_Vjq3tQcbOURmgKkQ",
+      "etag": "gy_a2s_eHqeo1BnUMNrv_7NFRHs",
       "id": { "kind": "youtube#video", "videoId": "0ggCfGflVAg" },
       "snippet": {
         "publishedAt": "2022-05-01T15:04:48Z",
