@@ -1,12 +1,31 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "iE7Ek1Q0gUgo3bnGa-XC_C2Auh8",
+  "etag": "EST0BAYSyA0_M_342hXhHT8e_ek",
   "regionCode": "US",
-  "pageInfo": { "totalResults": 29, "resultsPerPage": 29 },
+  "pageInfo": { "totalResults": 30, "resultsPerPage": 30 },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "aHiquPwfGu88KyPgbzEbrQbI2zg",
+      "etag": "7DZTeLhQJWvCF96PMli6CXliLxY",
+      "id": { "kind": "youtube#video", "videoId": "VIEKKHb9FBM" },
+      "snippet": {
+        "publishedAt": "2022-08-30T12:28:16Z",
+        "channelId": "UCQeL_8OTwzomVzcc2eZIXLg",
+        "title": "In Conversation with Sunita Suhas and Suhas Ramegowda |S02 E06| Couplepreneurs &amp; Their mental health",
+        "description": "For our sixth episode of EntreJourn Conversation Series: Season 2 , we have with us Sunita Suhas and Suhas Ramegowda, the ...",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/VIEKKHb9FBM/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/VIEKKHb9FBM/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/VIEKKHb9FBM/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "EntreJourn",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-30T12:28:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ya8_MaPtRAbXYDvCBpy8ddmOAP4",
       "id": { "kind": "youtube#video", "videoId": "qwLXr9N-N9s" },
       "snippet": {
         "publishedAt": "2022-08-20T12:29:27Z",
@@ -82,7 +101,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "3xp1RNHhto8fqbX4VIIGzT7mqjQ",
+      "etag": "KxW_qv3DKxnrSWeHgqb09wt7qOQ",
       "id": { "kind": "youtube#video", "videoId": "WbqXVJYob2c" },
       "snippet": {
         "publishedAt": "2022-07-10T12:30:12Z",
@@ -101,7 +120,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "bMzKjT6HHn4Ti9YcvtEnp1L9Auw",
+      "etag": "JIUrF_hV6yE-MOrHEAEunaCmxgc",
       "id": { "kind": "youtube#video", "videoId": "uIhjRkX8sE8" },
       "snippet": {
         "publishedAt": "2022-06-24T12:30:13Z",
@@ -120,7 +139,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "t1MUmJaAAkgr8pxZDBCyabdHaYA",
+      "etag": "DVbw23kHKc6D96PdPP2uS0DEK_c",
       "id": { "kind": "youtube#video", "videoId": "2W6yh526G6g" },
       "snippet": {
         "publishedAt": "2022-06-17T12:30:11Z",
@@ -329,7 +348,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "OMWZZmTuUtQZGKxj7mHO7mF_zRQ",
+      "etag": "xLnXbzrmEU8Bc3c6WPKqDRhETRI",
       "id": { "kind": "youtube#video", "videoId": "XI5z0coKmGg" },
       "snippet": {
         "publishedAt": "2022-03-18T08:20:07Z",
@@ -386,7 +405,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "O5Oj-LEKZyt5lEgAMTC6Bdut-PU",
+      "etag": "JBZt8NgCsniCe811emzGzygPFtU",
       "id": { "kind": "youtube#video", "videoId": "einJpJQ0D-4" },
       "snippet": {
         "publishedAt": "2022-02-20T12:30:16Z",
@@ -405,7 +424,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "tt6NTKBL12FDkjbzl1HlSaRFHLs",
+      "etag": "I-q1QPzTWD6IIeTN9Wdc0gtPlMU",
       "id": { "kind": "youtube#video", "videoId": "mTw4jNhukSA" },
       "snippet": {
         "publishedAt": "2022-02-10T12:30:15Z",
@@ -500,7 +519,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "sUzk1IEmnGfeTXQ3scSLcv8pTOw",
+      "etag": "wwe0bO39oq54wg87DiNZJC8HEvU",
       "id": { "kind": "youtube#video", "videoId": "b9sb999kRxs" },
       "snippet": {
         "publishedAt": "2021-12-24T14:49:13Z",
